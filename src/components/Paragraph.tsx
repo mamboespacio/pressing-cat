@@ -11,14 +11,14 @@ export default function Paragraph({ paragraph }: ParagraphProps) {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 0.6", "start 0.1"]
+    offset: ["start 0.6", "start 0.25"]
   })
 
   const words = paragraph.split(" ")
   return (
     <p
       ref={container}
-      className={`${UAVOSDSansMono.className} flex flex-wrap text-justify gap-5 lg:text-3xl uppercase antialiased`}
+      className={`${UAVOSDSansMono.className} flex flex-wrap text-justify gap-2 text-sm lg:gap-5 lg:text-3xl uppercase antialiased`}
     >
       {
         words.map((word, i) => {
@@ -63,7 +63,7 @@ const Char = ({ children, progress, range }: CharProps) => {
   const opacity = useTransform(progress, range, [0, 1])
   return (
     <span>
-      <span className="absolute opacity-20">{children}</span>
+      <span className="absolute opacity-10">{children}</span>
       <motion.span style={{ opacity: opacity }}>{children}</motion.span>
     </span>
   )
