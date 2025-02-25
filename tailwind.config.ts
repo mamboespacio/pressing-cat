@@ -8,7 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-offbit-regular)'],
+        // mono: ['var(--font-roboto-mono)'],
+      },
       colors: {
+        primary: {
+          "50":"#ff7d21",
+          "100":"#292929",
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
