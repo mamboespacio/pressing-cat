@@ -23,9 +23,9 @@ export const Hero = () => {
         </h1>
       </motion.div>
       
-      <div className="flex h-screen p-4 lg:p-8 justify-center items-end">
+      <section className="flex h-screen p-6 lg:p-8 justify-center items-end">
         <Paragraph paragraph={paragraph}/>
-      </div>
+      </section>
     </>
   )
 }

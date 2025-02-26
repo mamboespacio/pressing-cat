@@ -8,11 +8,13 @@ import { useScroll, motion, useMotionValueEvent } from 'framer-motion';
 export const Navbar = () => {
   const [hidden, setHidden] = useState(false);
   const { scrollY } = useScroll();
+
   useMotionValueEvent(scrollY, "change", latest => {
     const previous = scrollY.getPrevious() || 0;
     if (latest > previous && previous > 150) { setHidden(true) }
     else { setHidden(false) }
   });
+
   return (
     <motion.nav
       className="w-full p-4 lg:p-8 fixed"
@@ -28,8 +30,8 @@ export const Navbar = () => {
           <Image
             src="/logo.svg"
             alt="Pressing CAT Logo"
-            width={40}
-            height={40}
+            width={70}
+            height={70}
           />
         </a>
         <div className="flex items-center lg:order-2">

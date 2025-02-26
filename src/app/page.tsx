@@ -9,7 +9,7 @@ export default function Home() {
   
   return (
     <>
-      {/* <Loader/> */}
+      <Loader/>
       <Hero/>
       <Services/>
       <Process/>

@@ -4,53 +4,47 @@ import { OffBit, UAVOSDSansMono } from "@/fonts/Fonts";
 
 export const Footer = () => {
   return (
-    <footer className="p-4 sm:p-6 bg-primary-50 relative">
-      <div className="mx-auto py-16 bottom-0 w-full">
-        <div className="md:flex md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <a href="/" className="flex items-center">
-              <Image
-                src="/logo.svg"
-                alt="Pressing CAT Logo"
-                width={120}
-                height={90}
-              />
-            </a>
-          </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 text-2xl">
-            <div className={`${OffBit.className} antialiased`}>
-              <h2 className="mb-6 text-sm font-semibold text-primary-100 uppercase">FOLLOW US</h2>
-              <ul className="text-primary-100">
-                <li className="mb-4">
-                  <a href="/" className="hover:underline">Instagram</a>
-                </li>
-                <li>
-                  <a href="/" className="hover:underline">SoundCloud</a>
-                </li>
-              </ul>
-            </div>
-            <div className={`${OffBit.className} antialiased`}>
-              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Services</h2>
-              <ul className="text-primary-100">
-                <li className="mb-4">
-                  <a href="/" className="hover:underline ">Pressing</a>
-                </li>
-                <li>
-                  <a href="/" className="hover:underline">Artwork</a>
-                </li>
-              </ul>
-            </div>
-            <div className={`${OffBit.className} antialiased`}>
-              <h2 className="mb-6 text-sm font-semibold text-primary-100 uppercase">Legal</h2>
-              <ul className="text-primary-100">
-                <li className="mb-4">
-                  <a href="#" className="hover:underline">Privacy Policy</a>
-                </li>
-                <li>
-                  <a href="#" className="hover:underline">Terms &amp; Conditions</a>
-                </li>
-              </ul>
-            </div>
+    <footer className="p-6 lg:p-8 bg-primary-50 relative">
+      <div className="flex justify-between items-start">
+        <div>
+          <a href="/" className="flex items-center">
+            <Image
+              src="/logo-black.svg"
+              alt="Pressing CAT Logo"
+              width={70}
+              height={70}
+            />
+          </a>
+        </div>
+        <div className="flex gap-4">
+          <a href="/" className="flex items-center">
+            <Image
+              src="/e4dlogo.svg"
+              alt="Pressing CAT Logo"
+              width={140}
+              height={70}
+            />
+          </a>
+        </div>
+      </div>
+      <div className="md:flex md:justify-between pt-8 md:pt-16">
+        <div className="flex flex-col">
+          <p className={`${UAVOSDSansMono.className} antialiased text-xs text-primary-100`}>
+            Part Of the 24LAB Family
+          </p>
+          <p className={`${OffBit.className} antialiased text-primary-100`}>
+            © 2025 Pressing CAT. All Rights Reserved. Website by Antena
+          </p>
+        </div>
+        <div className="flex flex-col pt-4 md:pt-0">
+          <p className={`${UAVOSDSansMono.className} antialiased text-xs text-primary-100`}>
+            Socials
+          </p>
+          <div className={`${OffBit.className} flex antialiased text-primary-100 gap-4`}>
+            <a href="#" className="hover:underline">Instagram</a>
+            <a href="#" className="hover:underline">TikTok</a>
+            <a href="#" className="hover:underline">SoundCloud</a>
+            <a href="#" className="hover:underline">YouTube</a>
           </div>
         </div>
       </div>

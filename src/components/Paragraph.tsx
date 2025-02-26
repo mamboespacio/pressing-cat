@@ -11,14 +11,14 @@ export default function Paragraph({ paragraph }: ParagraphProps) {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 0.6", "start 0.25"]
+    offset: ["start 0.65", "start 0.25"]
   })
 
   const words = paragraph.split(" ")
   return (
     <p
       ref={container}
-      className={`${UAVOSDSansMono.className} flex flex-wrap text-justify gap-2 text-sm lg:gap-5 lg:text-3xl uppercase antialiased`}
+      className={`${UAVOSDSansMono.className} flex flex-wrap text-justify gap-2 text-sm lg:gap-3 lg:text-3xl uppercase antialiased`}
     >
       {
         words.map((word, i) => {
