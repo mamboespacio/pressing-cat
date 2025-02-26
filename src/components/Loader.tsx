@@ -31,7 +31,7 @@ export const Loader = () => {
           exit="exit"
           className="fixed flex h-screen w-screen bg-primary-50 z-40"
         />
-        <div className="fixed w-screen h-screen z-50 p-8">
+        <div className="fixed w-screen h-screen z-50 p-6 lg:p-8">
           <motion.div
             id="logo"
             className="relative w-[70px] h-[70px]"
@@ -50,7 +50,7 @@ export const Loader = () => {
         <div className="fixed flex items-end justify-end w-screen h-screen z-50">
             <p
 
-              className={`${UAVOSDSansMono.className} text-primary-100 text-7xl text-right p-8 uppercase antialiased`}
+              className={`${UAVOSDSansMono.className} text-primary-100 text-7xl text-right p6 lg:p-8 uppercase antialiased`}
             >
               <span></span>{words[index]}
             </p>
