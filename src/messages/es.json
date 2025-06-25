@@ -1,0 +1,62 @@
+{
+  "Main": {
+    "title": "OFF BCN Festival",
+    "description": "OFFBCN es un festival nacido en 2013 que celebra la cultura del baile y de la música electrónica en un evento con una producción tecnológica espectacular, divertido y transformador que eleva el concepto de fiesta a nuevos estándares y une a la comunidad clubber global."
+  },
+  "Menu": {
+    "Home": "Inicio",
+    "Program": "Programa",
+    "About": "Acerca",
+    "tickets": "Entradas"
+  },
+  "Header": {
+    "title": "11ª Edición → 13 y 14 de Junio → Parc del Fòrum → Open Air - Día y Noche",
+    "edition": "Edición N11",
+    "date": "13 y 14 de Junio"
+  },
+  "About": {
+    "offbcn-1": "OFFBCN es un festival nacido en 2013 que celebra la cultura del baile y de la música electrónica en un evento con una producción tecnológica espectacular, divertido y transformador que eleva el concepto de fiesta a nuevos estándares y une a la comunidad clubber global.",
+    "offbcn-2": "OFFBCN es más que un festival. Creemos en la fiesta y el baile como una expresión inherente de la conexión humana, donde la música, la celebración y la tecnología convergen para crear una experiencia cultural emocionante e inspiradora.\n\nEs un movimiento internacional que une a los amantes de la música electrónica de todo el mundo. OFFBCN posiciona la ciudad como un hub global para la cultura de la música dance y una plataforma para la expresión artística, la conexión de la escena y la innovación en la ciudad. Con un firme compromiso con la sostenibilidad y el impacto social, trabajamos por un futuro más responsable e inclusivo."
+  },
+  "lineUp": {
+    "title": "Line Up - Conoce a los artistas"
+  },
+  "Tickets": {
+    "title": "Únete al movimiento global de clubbing el fin de semana de la música electrónica en Barcelona.",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "weekend": "Access All Parties",
+    "cta": "Comprar Entradas"
+  },
+  "AboutPage": {
+    "title": "The Festival",
+    "cancellation": "Lamentablemente, debemos anunciar que el festival de este año ha sido cancelado por circunstancias ajenas a nuestra voluntad.",
+    "cancellation2": "Queremos agradecer sinceramente a los artistas y a los proveedores que nos han apoyado en todo momento, y que no tienen ninguna responsabilidad en esta situación.",
+    "cancellation3": "<b>PYRAMID</b> reubicará excepcionalmente su programación en un nuevo escenario junto al mar en <b>Go Beach Club Barcelona</b>, siempre en el Port del Fòrum.",
+    "cancellation4": "Gracias por vuestro continuo apoyo y comprensión.",
+    "cancellation5": "Nos hemos puesto en contacto con todos los compradores en relación con la información de las entradas - por favor, compruebe su correo electrónico para obtener todos los detalles.",
+    "cancellation6": "Para más información y reembolsos, no dude en ponerse en contacto con nosotros en: <b>devoluciones@elements4dance.com</b>",
+    "offbcn-1": "OFFBCN FESTIVAL no es solo un evento, es una experiencia inmersiva donde la pista de baile se convierte en un territorio de exploración colectiva. Más que un festival, es un punto de encuentro para quienes ven la música electrónica como una forma de expresión, una cultura que trasciende géneros y generaciones.",
+    "offbcn-2": "Aquí, el rave no es solo una celebración, sino una declaración de intenciones. OFFBCN honra la historia de la música electrónica, desde los primeros ritmos house y techno hasta las propuestas más vanguardistas del presente. Cada set, cada visual, cada encuentro es parte de una narrativa que trasciende el tiempo, demostrando que el espíritu raver es inmutable, pero siempre en evolución.\n\nMás que un festival, OFFBCN es una comunidad sin fronteras, un laboratorio de innovación donde la cultura clubbing se encuentra con el arte y la tecnología. Es un llamado a todos aquellos que sienten el latido de los bajos como su propio pulso. En Barcelona, bajo el cielo del Parc del Fòrum, se escribe cada año un nuevo capítulo de esta historia: la rave continúa, porque bailar es eterno.",
+    "e4d-1": "Elements 4 Dance es la promotora responsable de OFFBCN Festival. Formada por Marc Sala y Aitor Ballester, dos apasionados de la electrónica que fundaron esta productora hace más de 20 años, han estado activos en la escena desde entonces. Su trayectoria incluye la organización de más de 150 eventos en salas y lugares emblemáticos, así como la producción de más de 40 festivales de gran formato. Destacan por su enfoque en eventos llevados a cabo en espacios icónicos como Vila Habana, las inolvidables Exclusive Boat Parties (2007-2013) y las legendarias fiestas Life & Death.",
+    "e4d-2": "Sus últimos proyectos incluyen el desarrollo del 78|33 Sound Lab, la única sala con sonido inmersivo en España y Pressing Cat, la primera fábrica de vinilos de Catalunya. Además, un proyecto innovador y único: 24LAB, un hub musical en el barrio de Sant Andreu de Barcelona que ofrece a los músicos y artistas una amplia selección de servicios para la creación de música, la difusión, la organización de conciertos y shows audiovisuales.",
+    "forum": "El Parc del Fòrum es un espacio polivalente de 200.000 m 2 en Barcelona situado en el barrio de Sant Martí, conocido por acoger grandes eventos. Es un hito de la arquitectura urbana contemporánea, que presenta elementos de diseño modernista e industrial con formas geométricas espectaculares, todo ello rodeado de naturaleza y frente al mar Mediterráneo.",
+    "faq":{
+      "title":"Preguntas frecuentes → Preguntas frecuentes → Preguntas frecuentes → Preguntas frecuentes → Preguntas frecuentes → Preguntas frecuentes",
+      "section-1-title": "01 — Horario",
+      "section-1-description": "El festival abre sus puertas 30 minutos antes de que comience el evento. \n\n– Puertas abiertas el viernes a las 13:30 horas | Programa de 14:00 a 02:00 horas. La última entrada es a la 01:00 a.m. \n\n– Las puertas abren el sábado a las 2:30 p.m. | Programa de 15:00 a 03:00 horas. La última entrada es a las 02:00 a.m.",
+      "section-2-title": "02 — Pagos",
+      "section-2-description": "En OFFBCN podrás pagar con tu propia tarjeta de crédito o con la tarjeta del festival; No se acepta dinero en efectivo en ningún punto de venta propiedad del festival. Si tienes efectivo, puedes acercarte a cualquiera de nuestros puntos Cashless, obtener una tarjeta festiva y cargarla con la cantidad de dinero que desees. Es importante tener en cuenta que no habrá reembolso por los fondos no utilizados en la tarjeta del festival que haya recargado.",
+      "section-3-title": "03 — Comer y beber",
+      "section-3-description": "<b>¿Hay zona de comida en el festival?</b>\n Sí, el festival dispone de una amplia zona habilitada para comer durante los días del festival.\n\n<b>¿Se permite comida del exterior?</b>\nNo se permite comida del exterior, excepto para personas con condiciones médicas específicas que requieran comida especial. En tales casos se deberá presentar documentación oficial de la condición.\n\n<b>¿Puedo traer bebidas del exterior?</b>nNo, sólo se permiten botellas vacías de hasta 50cl sin tapón por motivos de seguridad. ",
+      "section-4-title": "04 — Entradas",
+      "section-4-description": "Para información sobre tus entradas, consulta aquí: Resident Advisor",
+      "section-5-title": "05 — Cámaras y grabación de video",
+      "section-5-description": "<b>¿Puedo traer mi cámara de foto/video?</b>\nSí, siempre y cuando no sea una cámara o grabadora profesional. No se permiten selfie sticks.",
+      "section-6-title": "06 — Objetos perdidos",
+      "section-6-description": "<b>¿Qué puedo hacer si pierdo un artículo?</b>\nDebido a la Ley de Protección de Datos Personales, todos los artículos pedidos serán entregados directamente a las autoridades correspondientes. Para recuperar objetos perdidos diríjase a la Comisaría de Policía de la Guardia Urbana del Distrito de Sant Martí (Dirección: Central Park Poblenou)",
+      "section-7-title": "07 — Accesso",
+      "section-7-description": "<b>Dirección:</b> Parc del Forum C/ de la Pau, 12 08930 Sant Adrià de Besòs, Barcelona\n\n<b>En coche desde Tarragona:</b> Ronda Litoral, salida 24: Rambla Prim, Diagonal Mar, C/ Port Forum. Adriá. ‍ \n\n<b>En coche desde Girona:</b> Ronda Litoral, salida 24: Rambla de Prim. Continuar a la derecha dirección Sant Ramon de Penyafort / Sant Adrià / Cristóbal de Moura. ‍ \n\n<b>Parkings más cercanos:</b> \n1 – B:SM Plaça Forum (Plaça d’Ernest Lluch) \n2 – B:SM Garcia Fària(c/Garcia Fària, 1) \n3 – B:SM Glòries (Plaça de les Glòries) ‍ \n\n<b>Bicicleta:</b> \nParkings más cercanos: Al Carrer Sant Ramón de Penyafort davant de la UPC y Pl.Leonardo Da Vinci. \n\n<b>Taxi:</b> \nEstaciones de taxi más cercanas: \n– Delante del CCIB en frente del Hilton Hotel.\n\n<b>Metro:</b> \nLínea L4: \n– Estación: El Maresme-Fòrum. \n– Salida: Rambla de Prim. Horario: \n– Viernes y festivos, de 5 a 2 horas. \n– Sábado, toda la noche. \n\n<b>Autobús:</b>\n– Autobús de día: Líneas: 7, 136, H16, B20, B23, V29, V33, V31 – Horarios: de 6:30 a 23 h ‍\n– Autobús nocturno: – Líneas: N6, N7 – Horarios: de 23 a 6 h soy \n\n<b>Tranvía:</b>\n– Número: T4 \n– Estación: Fòrum\n– Horario: viernes, sábados y festivos, de 5 a 2 horas"
+    }
+  }
+}

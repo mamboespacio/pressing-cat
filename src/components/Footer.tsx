@@ -4,7 +4,7 @@ import { OffBit, UAVOSDSansMono } from "@/fonts/Fonts";
 
 export const Footer = () => {
   return (
-    <footer className="p-6 lg:p-8 bg-primary-50 relative">
+    <footer className="p-6 lg:p-8 bg-primary-50 relative h-screen flex flex-col justify-between">
       <div className="flex justify-between items-start">
         <div>
           <a href="/" className="flex items-center">
@@ -16,7 +16,7 @@ export const Footer = () => {
             />
           </a>
         </div>
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <a href="/" className="flex items-center">
             <Image
               src="/e4dlogo.svg"
@@ -25,7 +25,7 @@ export const Footer = () => {
               height={70}
             />
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="md:flex md:justify-between pt-8 md:pt-16">
         <div className="flex flex-col">

@@ -1,24 +1,32 @@
-import { useScroll, useTransform, motion } from 'framer-motion';
-import React, { useRef } from 'react';
-import { OffBit, UAVOSDSansMono } from "@/fonts/Fonts";
+import { useScroll, useTransform, useInView, motion, inView } from 'framer-motion';
+import React, { useRef, useEffect } from 'react';
+import { fadeUp } from "@/components/animations";
 
 interface ParagraphProps {
   paragraph: string;
 }
 
 export default function Paragraph({ paragraph }: ParagraphProps) {
-
   const container = useRef(null);
+  const isInView = useInView(container);
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start 0.65", "start 0.25"]
   })
 
-  const words = paragraph.split(" ")
+  useEffect(() => {
+    console.log("Element is in view: ", isInView)
+  }, [isInView])
+
+  const words = paragraph.split(" ");
+  
   return (
-    <p
+    <motion.p
       ref={container}
-      className={`${UAVOSDSansMono.className} flex flex-wrap text-justify gap-2 text-sm lg:gap-3 lg:text-3xl uppercase antialiased`}
+      variants={fadeUp}
+      initial="initial"
+      animate={isInView ? "active" : "initial"}
+      className="font-sans font-medium flex flex-wrap text-center gap-2 text-sm lg:gap-3 lg:text-2xl uppercase antialiased"
     >
       {
         words.map((word, i) => {
@@ -27,7 +35,7 @@ export default function Paragraph({ paragraph }: ParagraphProps) {
           return <Word key={i} progress={scrollYProgress} range={[start, end]}>{word}</Word>
         })
       }
-    </p>
+    </motion.p>
   )
 }
 
@@ -63,7 +71,7 @@ const Char = ({ children, progress, range }: CharProps) => {
   const opacity = useTransform(progress, range, [0, 1])
   return (
     <span>
-      <span className="absolute opacity-10">{children}</span>
+      <span className="absolute opacity-5">{children}</span>
       <motion.span style={{ opacity: opacity }}>{children}</motion.span>
     </span>
   )

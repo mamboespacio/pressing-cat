@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-offbit-regular)'],
-        // mono: ['var(--font-roboto-mono)'],
+        sans: ['var(--font-chakra-petch)'],
+        mono: ['var(--font-inter)'],
       },
       colors: {
         primary: {
