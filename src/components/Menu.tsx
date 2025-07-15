@@ -10,8 +10,9 @@ import Image from "next/image";
 
 const navLinks = [
   { title: "Home", href: "/" },
-  { title: "Artists", href: "/artists" },
-  { title: "About", href: "/about" },
+  { title: "Services", href: "/artists" },
+  { title: "Process", href: "/about" },
+  { title: "Contact", href: "/contact" },
 ];
 
 export const Navbar = () => {
@@ -75,16 +76,16 @@ export const Navbar = () => {
               EMBRACING THE LEGACY  OF VINYL<br/>
               CREATING THE FUTURE OF MUSIC
             </p>
-            <Link
+            {/* <Link
               href="/calculator"
               className="uppercase inline-flex items-center justify-center px-5 py-2 text-xs lg:text-xl text-center text-primary bg-black rounded-full hover:bg-primary hover:text-black"
               >
               {t('tickets')}
-            </Link>
+            </Link> */}
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
-              className="justify-center px-2 py-1 lg:px-5 lg:py-3 text-xs text-center rounded-full bg-primary text-black hover:bg-black hover:text-primary"
+              className="justify-center px-2 py-1 lg:px-5 lg:py-3 text-xs text-center rounded-full bg-primary-50 text-primary-100 hover:bg-primary-100 hover:text-primary-50"
               aria-controls="mobile-menu-2"
               aria-expanded="false"
               onClick={toggleMenu}
@@ -102,7 +103,7 @@ export const Navbar = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed left-0 top-0 w-full h-screen origin-top bg-primary text-black p-10"
+            className="fixed left-0 top-0 w-full h-screen origin-top bg-primary-50 text-black p-10"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">

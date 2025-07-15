@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="p-6 lg:p-8 bg-primary-50 relative h-screen flex flex-col justify-between">
       <div className="flex justify-between items-start">
-        <div>
+        {/* <div>
           <a href="/" className="flex items-center">
             <Image
               src="/logo-black.svg"
@@ -15,7 +15,7 @@ export const Footer = () => {
               height={70}
             />
           </a>
-        </div>
+        </div> */}
         {/* <div className="flex gap-4">
           <a href="/" className="flex items-center">
             <Image
